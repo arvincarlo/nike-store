@@ -54,13 +54,15 @@ body {
   
   .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
     /* clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%); */
   }
   
   .sliderWrapper {
     display: flex;
-    width: 500vw;
+    width: 600vw;
+    transition: all 1s ease-in-out;
   }
   
   .sliderItem {
@@ -80,6 +82,7 @@ body {
   }
   
   .sliderTitle {
+    text-transform: uppercase;
     position: absolute;
     top: 10%;
     right: 10%;
@@ -132,13 +135,16 @@ body {
     background-color: #55c684;
   }
   .sliderItem:nth-child(3) .sliderBg {
-    background-color: #b355c6;
+    background-color: #af55c6;
   }
   .sliderItem:nth-child(4) .sliderBg {
     background-color: #c6be55;
   }
   .sliderItem:nth-child(5) .sliderBg {
     background-color: #c67555;
+  }
+  .sliderItem:nth-child(6) .sliderBg {
+    background-color: #c65597;
   }
 
   /* For text color */
@@ -149,13 +155,48 @@ body {
     color: #55c684;
   }
   .sliderItem:nth-child(3) .sliderPrice {
-    color: #b355c6;
+    color: #af55c6;
   }
   .sliderItem:nth-child(4) .sliderPrice {
     color: #c6be55;
   }
   .sliderItem:nth-child(5) .sliderPrice {
     color: #c67555;
+  }
+  .sliderItem:nth-child(6) .sliderPrice {
+    color: #c65597;
+  }
+
+  .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .featureIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .featureTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+  }
+
+  .featureDesc {
+    color: gray;
+    width: 75%;
+    height: 100px;
+    /* border: 1px solid red; */
   }
   /* .lato-thin {
       font-family: "Lato", sans-serif;
