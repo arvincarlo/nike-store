@@ -34,54 +34,66 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR FORCE <br>NEW <br>SEASON</h1>
                 <h2 class="sliderPrice">P 8,990</h2>
-                <button class="buyButton">
-                    BUY NOW!
-                </button>
+                <a href="#products">
+                    <button class="buyButton">
+                        BUY NOW!
+                    </button>
+                </a>
             </div>
             <div class="sliderItem">
                 <img src="/src/assets/images/jordan.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Airborne <br>Dreams</h1>
                 <h2 class="sliderPrice">P 10,990</h2>
-                <button class="buyButton">
-                    BUY NOW!
-                </button>
+                <a href="#products">
+                    <button class="buyButton">
+                        BUY NOW!
+                    </button>
+                </a>
             </div>
             <div class="sliderItem">
                 <img src="/src/assets/images/blazer.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Elevate <br>your <br>look</h1>
                 <h2 class="sliderPrice">P 9,990</h2>
-                <button class="buyButton">
-                    BUY NOW!
-                </button>
+                <a href="#products">
+                    <button class="buyButton">
+                        BUY NOW!
+                    </button>
+                </a>
             </div>
             <div class="sliderItem">
                 <img src="/src/assets/images/crater.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">nike <br>crater <br>impact</h1>
                 <h2 class="sliderPrice">P 6,800</h2>
-                <button class="buyButton">
-                    BUY NOW!
-                </button>
+                <a href="#products">
+                    <button class="buyButton">
+                        BUY NOW!
+                    </button>
+                </a>
             </div>
             <div class="sliderItem">
                 <img src="/src/assets/images/hippie.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">peace <br>love and <br>comfort</h1>
                 <h2 class="sliderPrice">P 7,990</h2>
-                <button class="buyButton">
-                    BUY NOW!
-                </button>
+                <a href="#products">
+                    <button class="buyButton">
+                        BUY NOW!
+                    </button>
+                </a>
             </div>
             <div class="sliderItem">
                 <img src="/src/assets/images/air2.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Step up<br>your <br>game</h1>
                 <h2 class="sliderPrice">P 5,990</h2>
-                <button class="buyButton">
-                    BUY NOW!
-                </button>
+                <a href="#products">
+                    <button class="buyButton">
+                        BUY NOW!
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -107,7 +119,7 @@
             <span class="featureDesc">Keep in touch via shopee and email system.</span>
         </div>
     </div>
-    <div class="product">
+    <div id="products" class="product">
         <img src="/src/assets/images/air.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
@@ -116,6 +128,7 @@
                 The Air Force 1 boasts a clean, classic silhouette that effortlessly complements any outfit. Whether you’re dressing up or down, these sneakers add an instant touch of street-style cool.
             </p>
             <div class="colors">
+                Available Colors:
                 <div class="color"></div>
                 <div class="color"></div>
             </div>
