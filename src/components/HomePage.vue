@@ -102,9 +102,29 @@
             <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
         </div>
         <div class="feature">
-            <img src="/src/assets/images/shipping.png" alt="" class="featureIcon">
+            <img src="/src/assets/images/contact.png" alt="" class="featureIcon">
             <span class="featureTitle">CONTACT US</span>
             <span class="featureDesc">Keep in touch via shopee and email system.</span>
+        </div>
+    </div>
+    <div class="product">
+        <img src="/src/assets/images/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">P 8,990</h2>
+            <p class="productDesc">
+                The Air Force 1 boasts a clean, classic silhouette that effortlessly complements any outfit. Whether you’re dressing up or down, these sneakers add an instant touch of street-style cool.
+            </p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">Buy Now!</button>
         </div>
     </div>
 </template>
