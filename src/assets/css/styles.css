@@ -140,7 +140,7 @@ body {
     background-color: #bcf7d4;
   }
   .sliderItem:nth-child(3) .sliderBg {
-    background-color: #e5b5f1;
+    background-color: #f4c6ff;
   }
   .sliderItem:nth-child(4) .sliderBg {
     background-color: #fdf9c1;
@@ -149,7 +149,7 @@ body {
     background-color: #f7c1ac;
   }
   .sliderItem:nth-child(6) .sliderBg {
-    background-color: #f082c2;
+    background-color: #ffeece;
   }
 
   /* For text color */
@@ -160,7 +160,7 @@ body {
     color: #bcf7d4;
   }
   .sliderItem:nth-child(3) .sliderPrice {
-    color: #e5b5f1;
+    color: #f4c6ff;
   }
   .sliderItem:nth-child(4) .sliderPrice {
     color: #fdf9c1;
@@ -169,7 +169,7 @@ body {
     color: #f7c1ac;
   }
   .sliderItem:nth-child(6) .sliderPrice {
-    color: #f082c2;
+    color: #ffeece;
   }
 
   .features {
@@ -207,6 +207,7 @@ body {
   .product {
     height: 100vh;
     background-color: rgb(252, 234, 234);
+    /* background-color: whitesmoke; */
     position: relative;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   }
@@ -245,10 +246,11 @@ body {
     background-color: black;
     margin: 0 10px;
     cursor: pointer;
+    border: 1px solid whitesmoke;
   }
 
   .color:last-child {
-    background-color: rgb(67, 167, 201);
+    background-color: #1b2843;
   }
 
   .size {
@@ -274,7 +276,7 @@ body {
   }
 
   .selected {
-    border: 2px solid #313538;
+    border: 3px solid #313538;
   }
   /* .lato-thin {
       font-family: "Lato", sans-serif;

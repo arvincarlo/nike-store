@@ -85,7 +85,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="/src/assets/images/air2.png" alt="" class="sliderImage">
+                <img src="/src/assets/images/court.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Step up<br>your <br>game</h1>
                 <h2 class="sliderPrice">P 5,990</h2>

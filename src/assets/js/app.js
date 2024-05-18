@@ -1,17 +1,17 @@
-console.log("Everything was loaded successfully.");
 
 const products = [
     {
         id: 1,
         title: "Air Force",
         price: 119,
+        backgroundColor: "#baf0ff",
         colors: [
             {
                 code: "black",
                 img: "/src/assets/images/air.png",
             },
             {
-                code: "darkblue",
+                code: "#1b2843",
                 img: "/src/assets/images/air2.png",
             },
         ],
@@ -20,7 +20,7 @@ const products = [
         id: 2,
         title: "Air Jordan",
         price: 8990,
-        backgroundColor: "#baf0ff",
+        backgroundColor: "#bcf7d4",
         colors: [
             {
                 code: "lightgray",
@@ -36,6 +36,7 @@ const products = [
         id: 3,
         title: "Blazer",
         price: 10990,
+        backgroundColor: "#f4c6ff",
         colors: [
             {
                 code: "lightgray",
@@ -51,6 +52,7 @@ const products = [
         id: 4,
         title: "Crater",
         price: 129,
+        backgroundColor: "#fdf9c1",
         colors: [
             {
                 code: "black",
@@ -66,6 +68,7 @@ const products = [
         id: 5,
         title: "Hippie",
         price: 99,
+        backgroundColor: "#f7c1ac",
         colors: [
             {
                 code: "gray",
@@ -78,24 +81,22 @@ const products = [
         ],
     },
     {
-        id: 5,
+        id: 6,
         title: "Court",
         price: 99,
+        backgroundColor: "#ffeece",
         colors: [
             {
-                code: "pink",
-                img: "/src/assets/images/air2.png",
+                code: "#C92D3B",
+                img: "/src/assets/images/court.png",
             },
             {
-                code: "#BADA55",
-                img: "/src/assets/images/hippie2.png",
+                code: "#b0cde9",
+                img: "/src/assets/images/court2.png",
             },
         ],
     },
 ];
-
-const wrapper = document.querySelector(".sliderWrapper");
-const menuItems = document.querySelectorAll(".menuItem");
 
 let [chosenProduct] = products;
 
@@ -104,9 +105,22 @@ const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
+const wrapper = document.querySelector(".sliderWrapper");
+const menuItems = document.querySelectorAll(".menuItem");
 
-console.log(currentProductImage)
+// Functions
+const resetColors = () => {
+    currentProductColors.forEach(childColor => childColor.classList.remove('selected'));
+};
 
+const changeProductsBackground = (index) => {
+    const productPage = document.querySelector('#products');
+    productPage.style.backgroundColor = products[index].backgroundColor;
+}
+// End of functions
+
+
+// Event handlers
 menuItems.forEach((item, index) => {
     item.addEventListener("click", () => {
         // change the current slid
@@ -130,6 +144,9 @@ menuItems.forEach((item, index) => {
         // Reset the color picker
         resetColors();
         currentProductColors[0].classList.add('selected');
+
+        // Change product page colors
+        changeProductsBackground(index);
     });
 });
 
@@ -140,10 +157,6 @@ currentProductColors.forEach((color, index) => {
         currentProductColors[index].classList.add('selected');
     });
 });
-
-const resetColors = () => {
-    currentProductColors.forEach(childColor => childColor.classList.remove('selected'));
-};
 
 currentProductSizes.forEach((size, index) => {
     size.addEventListener('click', (e) => {
@@ -159,13 +172,6 @@ currentProductSizes.forEach((size, index) => {
     });
 });
 
+// Changing of products background when clicking "buy" button
 const buttons = document.querySelectorAll('.buyButton');
-buttons.forEach((button, index) => {
-    button.addEventListener('click', (e) => {
-        // alert(products[index].backgroundColor);
-        const products = document.querySelector('#products');
-        products.style.backgroundColor = products[index].backgroundColor || 'black';
-    })
-})
-
-
+buttons.forEach((button, index) => button.addEventListener('click', () => changeProductsBackground(index)));
