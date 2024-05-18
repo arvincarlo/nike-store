@@ -139,5 +139,27 @@
             </div>
             <button class="productButton">Buy Now!</button>
         </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Infromation</h1>
+            <label for="">Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label for="">Phone number</label>
+            <input type="text" placeholder="+63912345678" class="payInput">
+            <label for="">Address</label>
+            <input type="text" placeholder="Makati" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="/src/assets/images/visa.png" width="40" alt="" class="cardIcon">
+                <img src="/src/assets/images/master.png" width="40" alt="" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" class="payInput sm" placeholder="mm">
+                <input type="text" class="payInput sm" placeholder="yyyy">
+                <input type="text" class="payInput sm" placeholder="cvv">
+            </div>
+            <button class="payButton">Checkout</button>
+            <span class="close">X</span>
+        </div>
     </div>
 </template>

@@ -107,6 +107,8 @@ const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
+const productPage = document.querySelector('#products');
+const buttons = document.querySelectorAll('.buyButton');
 
 // Functions
 const resetColors = () => {
@@ -114,11 +116,9 @@ const resetColors = () => {
 };
 
 const changeProductsBackground = (index) => {
-    const productPage = document.querySelector('#products');
     productPage.style.backgroundColor = products[index].backgroundColor;
 }
 // End of functions
-
 
 // Event handlers
 menuItems.forEach((item, index) => {
@@ -173,5 +173,15 @@ currentProductSizes.forEach((size, index) => {
 });
 
 // Changing of products background when clicking "buy" button
-const buttons = document.querySelectorAll('.buyButton');
 buttons.forEach((button, index) => button.addEventListener('click', () => changeProductsBackground(index)));
+
+const productButton = document.querySelector(".productButton");
+const payment = document.querySelector(".payment");
+const close = document.querySelector(".close");
+
+// Modal show
+productButton.addEventListener('click', () => payment.style.display = "flex");
+
+// Modal hide
+close.addEventListener('click', () => payment.style.display = "none");
+
