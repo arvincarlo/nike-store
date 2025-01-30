@@ -5,13 +5,13 @@
     <nav id="nav">
         <div class="navTop">
             <div class="navItem">
-                <img src="/src/assets/images/vue.png" alt="" class="logoTitle">
-                <img src="/src/assets/images/niek-logo.png" alt="">
+                <img src="/public/images/vue.png" alt="" class="logoTitle">
+                <img src="/public/images/niek-logo.png" alt="">
             </div>
             <div class="navItem">
                 <div class="search">
                     <input type="text" placeholder="Search..." class="searchInput">
-                    <img src="/src/assets/images/search.png" alt="" class="searchIcon" width="20" height="20">
+                    <img src="/public/images/search.png" alt="" class="searchIcon" width="20" height="20">
                 </div>
             </div>
             <div class="navItem">
@@ -31,7 +31,7 @@
     <div class="slider">
         <div class="sliderWrapper">
             <div class="sliderItem">
-                <img src="/src/assets/images/air.png" alt="" class="sliderImage">
+                <img src="/public/images/air.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR FORCE <br>NEW <br>SEASON</h1>
                 <h2 class="sliderPrice">P 8,990</h2>
@@ -42,7 +42,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="/src/assets/images/jordan.png" alt="" class="sliderImage">
+                <img src="/public/images/jordan.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Airborne <br>Dreams</h1>
                 <h2 class="sliderPrice">P 10,990</h2>
@@ -53,7 +53,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="/src/assets/images/blazer.png" alt="" class="sliderImage">
+                <img src="/public/images/blazer.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Elevate <br>your <br>look</h1>
                 <h2 class="sliderPrice">P 9,990</h2>
@@ -64,7 +64,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="/src/assets/images/crater.png" alt="" class="sliderImage">
+                <img src="/public/images/crater.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">nike <br>crater <br>impact</h1>
                 <h2 class="sliderPrice">P 6,800</h2>
@@ -75,7 +75,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="/src/assets/images/hippie.png" alt="" class="sliderImage">
+                <img src="/public/images/hippie.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">peace <br>love and <br>comfort</h1>
                 <h2 class="sliderPrice">P 7,990</h2>
@@ -86,7 +86,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="/src/assets/images/court.png" alt="" class="sliderImage">
+                <img src="/public/images/court.png" alt="" class="sliderImage">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">Step up<br>your <br>game</h1>
                 <h2 class="sliderPrice">P 5,990</h2>
@@ -100,28 +100,28 @@
     </div>
     <div class="features">
         <div class="feature">
-            <img src="/src/assets/images/shipping.png" alt="" class="featureIcon">
+            <img src="/public/images/shipping.png" alt="" class="featureIcon">
             <span class="featureTitle">FREE SHIPPING</span>
             <span class="featureDesc">Free worldwide shipping around NCR.</span>
         </div>
         <div class="feature">
-            <img src="/src/assets/images/return.png" alt="" class="featureIcon">
+            <img src="/public/images/return.png" alt="" class="featureIcon">
             <span class="featureTitle">30 DAYS MONEY BACK GUARANTEE</span>
             <span class="featureDesc">No question return and easy refund in 14 days.</span>
         </div>
         <div class="feature">
-            <img src="/src/assets/images/gift.png" alt="" class="featureIcon">
+            <img src="/public/images/gift.png" alt="" class="featureIcon">
             <span class="featureTitle">GIFT COUPONS</span>
             <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
         </div>
         <div class="feature">
-            <img src="/src/assets/images/contact.png" alt="" class="featureIcon">
+            <img src="/public/images/contact.png" alt="" class="featureIcon">
             <span class="featureTitle">CONTACT US</span>
             <span class="featureDesc">Keep in touch via shopee and email system.</span>
         </div>
     </div>
     <div id="products" class="product">
-        <img src="/src/assets/images/air.png" alt="" class="productImg">
+        <img src="/public/images/air.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
             <h2 class="productPrice">P 8,990</h2>
@@ -150,8 +150,8 @@
             <input type="text" placeholder="Makati" class="payInput">
             <h1 class="payTitle">Card Information</h1>
             <div class="cardIcons">
-                <img src="/src/assets/images/visa.png" width="40" alt="" class="cardIcon">
-                <img src="/src/assets/images/master.png" width="40" alt="" class="cardIcon">
+                <img src="/public/images/visa.png" width="40" alt="" class="cardIcon">
+                <img src="/public/images/master.png" width="40" alt="" class="cardIcon">
             </div>
             <input type="password" class="payInput" placeholder="Card Number">
             <div class="cardInfo">
@@ -237,10 +237,10 @@
             <div class="footerRightMenu">
                 <h1 class="fMenuTitle">Follow Us</h1>
                 <div class="fIcons">
-                    <img src="/src/assets/images/facebook.png" alt="" class="fIcon">
-                    <img src="/src/assets/images/twitter.png" alt="" class="fIcon">
-                    <img src="/src/assets/images/instagram.png" alt="" class="fIcon">
-                    <img src="/src/assets/images/whatsapp.png" alt="" class="fIcon">
+                    <img src="/public/images/facebook.png" alt="" class="fIcon">
+                    <img src="/public/images/twitter.png" alt="" class="fIcon">
+                    <img src="/public/images/instagram.png" alt="" class="fIcon">
+                    <img src="/public/images/whatsapp.png" alt="" class="fIcon">
                 </div>
             </div>
             <div class="footerRightMenu">
