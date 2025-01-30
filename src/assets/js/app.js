@@ -8,11 +8,11 @@ const products = [
         colors: [
             {
                 code: "black",
-                img: "/src/assets/images/air.png",
+                img: "/public/images/air.png",
             },
             {
                 code: "#1b2843",
-                img: "/src/assets/images/air2.png",
+                img: "/public/images/air2.png",
             },
         ],
     },
@@ -24,11 +24,11 @@ const products = [
         colors: [
             {
                 code: "lightgray",
-                img: "/src/assets/images/jordan.png",
+                img: "/public/images/jordan.png",
             },
             {
                 code: "green",
-                img: "/src/assets/images/jordan2.png",
+                img: "/public/images/jordan2.png",
             },
         ],
     },
@@ -40,11 +40,11 @@ const products = [
         colors: [
             {
                 code: "lightgray",
-                img: "/src/assets/images/blazer.png",
+                img: "/public/images/blazer.png",
             },
             {
                 code: "green",
-                img: "/src/assets/images/blazer2.png",
+                img: "/public/images/blazer2.png",
             },
         ],
     },
@@ -56,11 +56,11 @@ const products = [
         colors: [
             {
                 code: "black",
-                img: "/src/assets/images/crater.png",
+                img: "/public/images/crater.png",
             },
             {
                 code: "lightgray",
-                img: "/src/assets/images/crater2.png",
+                img: "/public/images/crater2.png",
             },
         ],
     },
@@ -72,11 +72,11 @@ const products = [
         colors: [
             {
                 code: "gray",
-                img: "/src/assets/images/hippie.png",
+                img: "/public/images/hippie.png",
             },
             {
                 code: "black",
-                img: "/src/assets/images/hippie2.png",
+                img: "/public/images/hippie2.png",
             },
         ],
     },
@@ -88,11 +88,11 @@ const products = [
         colors: [
             {
                 code: "#C92D3B",
-                img: "/src/assets/images/court.png",
+                img: "/public/images/court.png",
             },
             {
                 code: "#b0cde9",
-                img: "/src/assets/images/court2.png",
+                img: "/public/images/court2.png",
             },
         ],
     },
